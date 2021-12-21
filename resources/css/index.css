@@ -1,28 +1,50 @@
-head {
+/*
+Colour palette:
+#164267
+#1D557C
+#537FA8
+#97B4D7
+#C2D5EE
+*/
+
+body, #banner, .navigation{
 	margin: 0;
 	padding: 0;
 }
 
 body {
-	background-color: #f1f4fb;
-	margin: 0;
-	padding: 0;
+	background-color: #C2D5EE;
 }
 
-header, #name {
-	background-color: #618fc9;
-	margin: 0;
- 	padding: 0;	
+#banner {
+	background-color: #1D557C;
+	text-align: center;
+	font-size: 50px;
+	color: #C2D5EE;
+	padding: 10px;
 }
-.menu {
-	list-style-type: none;
+.navigation {
+	background-color: #97B4D7;
+	overflow: hidden;
 }
 
-li {
-	display: inline;
+.navigation a {
+	float: left;
+	font-size: 25px;
+	text-align: center;
+	padding: 15px 25px;
+	text-decoration: none;
+	color: #164267;
 }
-#navigation {
-	background-color: #89afe0;
-	margin: 0;
-	padding: 0;
+
+.navigation a:hover {
+	background-color: #537FA8;
+	color: #C2D5EE;
 }
+
+h2 {
+	text-align: center;
+	color: #164267;
+	font-size: 30px;
+}
+
